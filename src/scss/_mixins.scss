@@ -1,0 +1,42 @@
+@mixin titles-pic {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    color: black;
+    padding: 0.3em 2em;
+  }
+  
+  @mixin title-font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    color: black;
+  }
+  
+  @mixin text-font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+  }
+  
+  @mixin price-font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    color:#D40000;
+  }
+  
+  @mixin price-vat-font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    color: grey;
+  }
+  @mixin info-font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    color: grey;
+  }
+  
+  @mixin info-span {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    color: black;
+  }
