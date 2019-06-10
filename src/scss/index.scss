@@ -6,11 +6,10 @@
 
 .layout {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-template-rows: auto;
   grid-column-gap: 1em;
   grid-row-gap: 1em;
-  /* grid-template-areas: card */
 }
 
 .card {
@@ -27,7 +26,7 @@
   height: auto;
 }
 
-.title-one {
+.pic-titleOne {
   display: inline-block;
   position: absolute;
   top: 1em;
@@ -36,7 +35,7 @@
   @include titles-pic;
 }
 
-.title-two {
+.pic-titleTwo {
   display: inline-block;
   position: absolute;
   top: 3.5em;
@@ -49,11 +48,11 @@
   padding: 0.3em 1em;
 }
 
-.title-description {
+.description-title {
   @include title-font;
 }
 
-.text-description {
+.description-text {
   @include text-font;
   text-align: justify;
 }
